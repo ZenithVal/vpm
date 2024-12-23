@@ -1,19 +1,19 @@
 {
     "name":"ZenithVal's VPM Repo",
-    "id":"io.github.zenithval.vpm",
-    "url":"https://zenithval.github.io/vpm/index.json",
+    "id":"io.github.ZenithVal.vpm",
+    "url":"https://ZenithVal.github.io/vpm/index.json",
     "author":{
         "name":"ZenithVal",
-        "url":"https://github.com/zenithval"
+        "url":"https://github.com/ZenithVal"
     },
     "description":"A listing of ZenithVal's VPM packages",
     "infoLink":{
-        "url":"https://github.com/zenithval/vpm",
+        "url":"https://github.com/ZenithVal/vpm",
         "text":"How to use (Readme)"
     },
-    "bannerUrl":"banner.png",
+    "bannerUrl":"",
     "githubRepos":[
-        "zenithval/vrc-bulk-upload",
-        "zenithval/Zenis-Unity-Tools"
+        "ZenithVal/Zenis-Unity-Tools",
+        "ZenithVal/vrc-bulk-upload"
     ]
 }
