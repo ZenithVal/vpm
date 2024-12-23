@@ -1,28 +1,19 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
+    "name":"ZenithVal's VPM Repo",
+    "id":"io.github.zenithval.vpm",
+    "url":"https://zenithval.github.io/vpm/index.json",
     "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+        "name":"ZenithVal",
+        "url":"https://github.com/zenithval"
     },
-    "description":"Example listing of VRChat packages",
+    "description":"A listing of ZenithVal's VPM packages",
     "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
-        "text":"View on GitHub"
+        "url":"https://github.com/zenithval/vpm",
+        "text":"How to use (Readme)"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "vrchat-community/clientsim"
-    ],
-    "packages":[
-        {
-            "name":"com.vrchat.udonsharp",
-            "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
-            ]
-        }
+        "zenithval/vrc-bulk-upload",
+        "zenithval/Zenis-Unity-Tools"
     ]
 }
