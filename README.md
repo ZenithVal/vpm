@@ -1,27 +1,37 @@
-# 📦 https://zenithval.github.io/vpm/ 📥
+# Zeni Avatar NDMF
 
-![GitHub deployments](https://img.shields.io/github/actions/workflow/status/ZenithVal/vpm/build-listing.yml?label=Build%20Package%20Listing)
+A collection of niche, non-destructive tools for modular avatar creation, primarily geared towards VRChat.  
+Designed to be used alongside [Modular Avatar](https://github.com/bdunderscore/modular-avatar).  
 
-This repo hosts my [VPM](https://vcc.docs.vrchat.com/vpm/)-compatible packages for use with [VCC](https://vcc.docs.vrchat.com/) or [ALCOM](https://vrc-get.anatawa12.com/alcom/).
+💡 *Name ideas welcome — I couldn’t think of something as catchy as “Modular Avatar” or “Prefabulous” starting with Z.*  
 
-## Usage With VCC
-### Adding Repo Listing
-- With the [VCC](https://vrchat.com/download/vcc) or [ALCOM](https://ask.vrchat.com/t/alcom-a-crossplatform-fast-open-source-unofficial-creator-companion-alternative/24058), go to https://zenithval.github.io/vpm, click `Add to VCC` at the top, and follow the prompts.
-- Otherwise, make sure you have the [VPM CLI](https://vcc.docs.vrchat.com/vpm/cli) installed, then run the command `vpm add repo https://zenithval.github.io/vpm/index.json`.
+📥 **VCC Repo**: [https://zenithval.github.io/vpm/](https://zenithval.github.io/vpm/)
 
-### Adding Packages to a Project
+---
 
-In the VPM Interface, select your project, locate the `Selected Repos` dropdown, and check `Zenith's VPM Repo`. Then, select the package you want to add, and click the plus button.
+## ✨ Components
 
-## Manual Usage
+### 🟦 ZA Remap VRChat Collider
+A tool to remap avatar descriptor colliders to target bones and define custom shapes for them. 
 
-Each package has its own repository, and usually contains a standalone package distribution, as well as a VPM-compatible package distribution. If you want to use the standalone package, you can download it from the releases page of the package's repository.
+**Example Use cases:**  
+- Making a non-destruvtive prefab for setting up your standard Colliders.
+- Reassigning colliders for weapon/props to interact with PhysBones. (Melee, guns, ect)
+- Moving the hand collider on a constraint object to the head, allowing biting by holding trigger.
+   - (Example Prefab for this soon)
 
-## Thanks
-- [pumkin](https://github.com/rurre) for reference & help setting this up. 
-- [rrazgriz](https://github.com/rrazgriz/raz-vpm) original readme writer.
+---
 
-<br>
+### 🟦 ZA Set View Position
+A component to set the avatar descriptor view position based on the position of a GameObject in the world.  
+- Works best on a **child of a Modular Avatar bone proxy** targeting the head.
+- Great for non-destructivly setting the viewball with a prefab setup. (Adjust height with heels? Already adjusted view)
 
-## Zeni Lazy shortcut
-[build-listing.yml](.github/workflows/build-listing.yml)
+---
+
+## Credits
+This project was built by learning from:  
+- [Modular Avatar](https://github.com/bdunderscore/modular-avatar)  
+- [Prefabulous Avatar](https://github.com/hai-vr/prefabulous-avatar)  
+
+---
